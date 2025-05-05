@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: ['https://chattera-enm2.onrender.com', 'http://localhost:5173'],
+        origin: ['https://chatter-5uwp.onrender.com', 'http://localhost:5173'],
     },
 });
 

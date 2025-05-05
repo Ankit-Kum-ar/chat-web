@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 // CORS middleware
 app.use(cors({
-    origin: "https://chattera-enm2.onrender.com",
+    origin: "https://chatter-5uwp.onrender.com",
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 }));
 

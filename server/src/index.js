@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 // CORS middleware
 app.use(cors({
-    origin: "http://localhost:5173", // Replace with your client URL
+    origin: "https://chattera-enm2.onrender.com",
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 }));
 
